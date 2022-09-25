@@ -10,10 +10,22 @@
 
 #import "FTBaseOperation.h"
 
+#import "FTAbstractProductA.h"
+#import "FTAbstractProductB.h"
+
 @protocol FTFactoryProtocal <NSObject>
 
 /// 创建运算类
 + (FTBaseOperation *)createOperation;
+
+@end
+
+@protocol FTAbstractFactoryProtocal <NSObject>
+
+/// 创建A类产品
+- (FTAbstractProductA *)createProductA;
+/// 创建B类产品
+- (FTAbstractProductB *)createProductB;
 
 @end
 

@@ -18,6 +18,9 @@
 #import "FTMulFactory.h"
 #import "FTDivFactory.h"
 
+#import "FTConcreateFactory1.h"
+#import "FTConcreateFactory2.h"
+
 // 比如要增加 平方根、立方根、正弦余弦等函数，只需要
 // 1.添加对应的子类，实现getResult方法
 // 2.修改FTOperationFactory计算类工厂，在switch中增加分支
@@ -43,11 +46,6 @@ void test2() {
 // 工厂方法使一个类的实例化延迟到其子类
 // 优点： 一个具体工厂 对应 一个具体的产品
 
-
-// 抽象工厂：Abstract Factory
-// 提供一个创建一系列相关或相互依赖对象的接口，而无需制定它们具体的类
-//
-
 void test3() {
     
     FTBaseOperation *operation = [FTAddFactory createOperation];
@@ -57,11 +55,41 @@ void test3() {
     NSLog(@"%.2f", result);
 }
 
+
+// 抽象工厂：Abstract Factory
+// 提供一个创建一系列相关或相互依赖对象的接口，而无需制定它们具体的类
+
+// 抽象工厂的好处：
+// 不需要依赖具体的产品类 FTProductA1、FTProductB1、FTProductA2、FTProductB2
+// 甚至不需要抽象类 FTAbstractProductA、FTAbstractProductB
+// 客户端只需要关心使用哪种工厂即可，选择哪种工厂，就可以生产哪种产品
+
+void test4() {
+    
+    NSLog(@"工厂1开始生产产品--------");
+    
+    id<FTAbstractFactoryProtocal> factory1 = [FTConcreateFactory1 new];
+    NSLog(@"%@", NSStringFromClass([[factory1 createProductA] class]));
+    NSLog(@"%@", NSStringFromClass([[factory1 createProductB] class]));
+    
+    NSLog(@"生产结束----------------\n");
+    
+    
+    NSLog(@"工厂2开始生产产品--------");
+    
+    id<FTAbstractFactoryProtocal> factory2 = [FTConcreateFactory2 new];
+    NSLog(@"%@", NSStringFromClass([[factory2 createProductA] class]));
+    NSLog(@"%@", NSStringFromClass([[factory2 createProductB] class]));
+    
+    NSLog(@"生产结束----------------");
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 //        test1();
 //        test2();
-        test3();
+//        test3();
+        test4();
     }
     return 0;
 }

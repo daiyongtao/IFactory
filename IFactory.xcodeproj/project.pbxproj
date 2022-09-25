@@ -18,6 +18,14 @@
 		4C9C611828DF5C640093FCF3 /* FTSubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C611728DF5C640093FCF3 /* FTSubFactory.m */; };
 		4C9C611D28DF5C6C0093FCF3 /* FTMulFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C611C28DF5C6C0093FCF3 /* FTMulFactory.m */; };
 		4C9C612128DF5C780093FCF3 /* FTDivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C612028DF5C780093FCF3 /* FTDivFactory.m */; };
+		4C9C615628E0AB970093FCF3 /* FTAbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C615528E0AB970093FCF3 /* FTAbstractProductA.m */; };
+		4C9C615A28E0ABA00093FCF3 /* FTAbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C615928E0ABA00093FCF3 /* FTAbstractProductB.m */; };
+		4C9C615E28E0ABC60093FCF3 /* FTProductA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C615D28E0ABC60093FCF3 /* FTProductA1.m */; };
+		4C9C616328E0ABCE0093FCF3 /* FTProductA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C616228E0ABCE0093FCF3 /* FTProductA2.m */; };
+		4C9C616728E0ABDC0093FCF3 /* FTProductB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C616628E0ABDC0093FCF3 /* FTProductB1.m */; };
+		4C9C616B28E0ABE30093FCF3 /* FTProductB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C616A28E0ABE30093FCF3 /* FTProductB2.m */; };
+		4C9C616F28E0AC010093FCF3 /* FTConcreateFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C616E28E0AC010093FCF3 /* FTConcreateFactory1.m */; };
+		4C9C617328E0AC090093FCF3 /* FTConcreateFactory2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C617228E0AC090093FCF3 /* FTConcreateFactory2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +65,22 @@
 		4C9C611C28DF5C6C0093FCF3 /* FTMulFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMulFactory.m; sourceTree = "<group>"; };
 		4C9C611F28DF5C780093FCF3 /* FTDivFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDivFactory.h; sourceTree = "<group>"; };
 		4C9C612028DF5C780093FCF3 /* FTDivFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDivFactory.m; sourceTree = "<group>"; };
+		4C9C615428E0AB970093FCF3 /* FTAbstractProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAbstractProductA.h; sourceTree = "<group>"; };
+		4C9C615528E0AB970093FCF3 /* FTAbstractProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAbstractProductA.m; sourceTree = "<group>"; };
+		4C9C615828E0ABA00093FCF3 /* FTAbstractProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAbstractProductB.h; sourceTree = "<group>"; };
+		4C9C615928E0ABA00093FCF3 /* FTAbstractProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAbstractProductB.m; sourceTree = "<group>"; };
+		4C9C615C28E0ABC60093FCF3 /* FTProductA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductA1.h; sourceTree = "<group>"; };
+		4C9C615D28E0ABC60093FCF3 /* FTProductA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductA1.m; sourceTree = "<group>"; };
+		4C9C616128E0ABCE0093FCF3 /* FTProductA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductA2.h; sourceTree = "<group>"; };
+		4C9C616228E0ABCE0093FCF3 /* FTProductA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductA2.m; sourceTree = "<group>"; };
+		4C9C616528E0ABDC0093FCF3 /* FTProductB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductB1.h; sourceTree = "<group>"; };
+		4C9C616628E0ABDC0093FCF3 /* FTProductB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductB1.m; sourceTree = "<group>"; };
+		4C9C616928E0ABE30093FCF3 /* FTProductB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductB2.h; sourceTree = "<group>"; };
+		4C9C616A28E0ABE30093FCF3 /* FTProductB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductB2.m; sourceTree = "<group>"; };
+		4C9C616D28E0AC010093FCF3 /* FTConcreateFactory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTConcreateFactory1.h; sourceTree = "<group>"; };
+		4C9C616E28E0AC010093FCF3 /* FTConcreateFactory1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTConcreateFactory1.m; sourceTree = "<group>"; };
+		4C9C617128E0AC090093FCF3 /* FTConcreateFactory2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTConcreateFactory2.h; sourceTree = "<group>"; };
+		4C9C617228E0AC090093FCF3 /* FTConcreateFactory2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTConcreateFactory2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +122,9 @@
 		4C9C60F528DF5A590093FCF3 /* IFactory */ = {
 			isa = PBXGroup;
 			children = (
-				4C9C610328DF5A590093FCF3 /* FTEnumDefine.h */,
 				4C9C611128DF5AED0093FCF3 /* FTFactoryInterface.h */,
-				4C9C612428E094EA0093FCF3 /* Factory */,
+				4C9C612528E097250093FCF3 /* AbstractFactory */,
+				4C9C612428E094EA0093FCF3 /* OperationFactory */,
 				4C9C612328E094750093FCF3 /* Operation */,
 			);
 			path = IFactory;
@@ -109,6 +133,7 @@
 		4C9C612328E094750093FCF3 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
+				4C9C610328DF5A590093FCF3 /* FTEnumDefine.h */,
 				4C9C60FF28DF5A590093FCF3 /* FTBaseOperation.h */,
 				4C9C60FA28DF5A590093FCF3 /* FTBaseOperation.m */,
 				4C9C60F728DF5A590093FCF3 /* FTOperationAdd.h */,
@@ -123,7 +148,7 @@
 			path = Operation;
 			sourceTree = "<group>";
 		};
-		4C9C612428E094EA0093FCF3 /* Factory */ = {
+		4C9C612428E094EA0093FCF3 /* OperationFactory */ = {
 			isa = PBXGroup;
 			children = (
 				4C9C60FB28DF5A590093FCF3 /* FTOperationFactory.h */,
@@ -137,7 +162,30 @@
 				4C9C611F28DF5C780093FCF3 /* FTDivFactory.h */,
 				4C9C612028DF5C780093FCF3 /* FTDivFactory.m */,
 			);
-			path = Factory;
+			path = OperationFactory;
+			sourceTree = "<group>";
+		};
+		4C9C612528E097250093FCF3 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4C9C615428E0AB970093FCF3 /* FTAbstractProductA.h */,
+				4C9C615528E0AB970093FCF3 /* FTAbstractProductA.m */,
+				4C9C615C28E0ABC60093FCF3 /* FTProductA1.h */,
+				4C9C615D28E0ABC60093FCF3 /* FTProductA1.m */,
+				4C9C616128E0ABCE0093FCF3 /* FTProductA2.h */,
+				4C9C616228E0ABCE0093FCF3 /* FTProductA2.m */,
+				4C9C615828E0ABA00093FCF3 /* FTAbstractProductB.h */,
+				4C9C615928E0ABA00093FCF3 /* FTAbstractProductB.m */,
+				4C9C616528E0ABDC0093FCF3 /* FTProductB1.h */,
+				4C9C616628E0ABDC0093FCF3 /* FTProductB1.m */,
+				4C9C616928E0ABE30093FCF3 /* FTProductB2.h */,
+				4C9C616A28E0ABE30093FCF3 /* FTProductB2.m */,
+				4C9C616D28E0AC010093FCF3 /* FTConcreateFactory1.h */,
+				4C9C616E28E0AC010093FCF3 /* FTConcreateFactory1.m */,
+				4C9C617128E0AC090093FCF3 /* FTConcreateFactory2.h */,
+				4C9C617228E0AC090093FCF3 /* FTConcreateFactory2.m */,
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,12 +248,20 @@
 				4C9C610528DF5A590093FCF3 /* main.m in Sources */,
 				4C9C610928DF5A590093FCF3 /* FTOperationAdd.m in Sources */,
 				4C9C610A28DF5A590093FCF3 /* FTOperationSub.m in Sources */,
+				4C9C616728E0ABDC0093FCF3 /* FTProductB1.m in Sources */,
 				4C9C611428DF5BB00093FCF3 /* FTAddFactory.m in Sources */,
+				4C9C616328E0ABCE0093FCF3 /* FTProductA2.m in Sources */,
 				4C9C612128DF5C780093FCF3 /* FTDivFactory.m in Sources */,
 				4C9C611828DF5C640093FCF3 /* FTSubFactory.m in Sources */,
+				4C9C615E28E0ABC60093FCF3 /* FTProductA1.m in Sources */,
 				4C9C610728DF5A590093FCF3 /* FTOperationMul.m in Sources */,
+				4C9C617328E0AC090093FCF3 /* FTConcreateFactory2.m in Sources */,
+				4C9C615628E0AB970093FCF3 /* FTAbstractProductA.m in Sources */,
 				4C9C611D28DF5C6C0093FCF3 /* FTMulFactory.m in Sources */,
+				4C9C616F28E0AC010093FCF3 /* FTConcreateFactory1.m in Sources */,
 				4C9C610828DF5A590093FCF3 /* FTBaseOperation.m in Sources */,
+				4C9C616B28E0ABE30093FCF3 /* FTProductB2.m in Sources */,
+				4C9C615A28E0ABA00093FCF3 /* FTAbstractProductB.m in Sources */,
 				4C9C610628DF5A590093FCF3 /* FTOperationDiv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

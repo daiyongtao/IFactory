@@ -89,7 +89,6 @@
 		4C9C60EA28DF5A060093FCF3 /* IFactory */ = {
 			isa = PBXGroup;
 			children = (
-				4C9C610328DF5A590093FCF3 /* FTEnumDefine.h */,
 				4C9C60F428DF5A590093FCF3 /* main.m */,
 				4C9C60F528DF5A590093FCF3 /* IFactory */,
 			);
@@ -97,6 +96,17 @@
 			sourceTree = "<group>";
 		};
 		4C9C60F528DF5A590093FCF3 /* IFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4C9C610328DF5A590093FCF3 /* FTEnumDefine.h */,
+				4C9C611128DF5AED0093FCF3 /* FTFactoryInterface.h */,
+				4C9C612428E094EA0093FCF3 /* Factory */,
+				4C9C612328E094750093FCF3 /* Operation */,
+			);
+			path = IFactory;
+			sourceTree = "<group>";
+		};
+		4C9C612328E094750093FCF3 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
 				4C9C60FF28DF5A590093FCF3 /* FTBaseOperation.h */,
@@ -109,7 +119,13 @@
 				4C9C60F928DF5A590093FCF3 /* FTOperationMul.m */,
 				4C9C60FE28DF5A590093FCF3 /* FTOperationDiv.h */,
 				4C9C60F828DF5A590093FCF3 /* FTOperationDiv.m */,
-				4C9C611128DF5AED0093FCF3 /* FTFactoryInterface.h */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		4C9C612428E094EA0093FCF3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
 				4C9C60FB28DF5A590093FCF3 /* FTOperationFactory.h */,
 				4C9C610128DF5A590093FCF3 /* FTOperationFactory.m */,
 				4C9C611228DF5BB00093FCF3 /* FTAddFactory.h */,
@@ -121,7 +137,7 @@
 				4C9C611F28DF5C780093FCF3 /* FTDivFactory.h */,
 				4C9C612028DF5C780093FCF3 /* FTDivFactory.m */,
 			);
-			path = IFactory;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
